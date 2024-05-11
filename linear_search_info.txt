@@ -1,0 +1,12 @@
+In the linear search algorithms, for the worst case where the query is the last number in the input list
+Therefore, if there are n items in the list then the algorithm will run n times to find the element.
+
+TIME COMPLEXITY OF LINEAR SEARCH:
+                O(N) ---------- LINEAR TIME
+
+To implement linear search algorithm only one extra block is required to store the position of the element
+in the list during iteration. The value changes at each iteration but uses the same memory as the previous
+one is overwritten.
+
+SPACE COMPLEXITY OF LINEAR SEARCH:
+                O(1) -------------- CONSTANT SPACE
