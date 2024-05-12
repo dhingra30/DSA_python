@@ -18,7 +18,7 @@ def locate_card(cards, query):
 def evaluate_tests(test_cases):
     """Accepts all the test and edge cases as input and compare them with the desired output"""
     # Create two elements for number of test and passed tests
-    number_of_test = 0
+    number_of_test = 1
     passed_test = 0
     # Loop over all the test and edge cases already added to the list
     for tests in test_cases:
