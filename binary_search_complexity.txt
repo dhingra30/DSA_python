@@ -1,0 +1,29 @@
+The complexity depends on the number of time an iteration runs in a program.
+
+In Binary search the length of the list is divided into half after each iteration.
+Therefore, if we start with a list of N elements then,
+
+Initial length = N
+After first Iteration = N/2
+After second Iteration = N/4 = N/2*2 = N/2^2
+After third Iteration = N/8 = N/2*2*2 = N/2^3
+.
+.
+.
+After K iteration = N/2^K
+
+In worst case scenario, the algorithm runs until there is 1 item left in the list.
+
+Therefore, after K iteration there is only 1 item left in the list
+
+N/2^K = 1
+
+rearranging the terms
+N = 2^K
+Or, K = log N
+where log is of base 2
+
+Therefore, the complexity of Binary search is O(log n)
+Binary search runs in logarithmic time
+
+The space complexity of Binary Search is O(1)
