@@ -1,4 +1,4 @@
-# **DSA_python**
+# **DSA_python_BinarySearch_&_LinearSearch**
 **Data Structures and Algorithms in python**
 
 An introduction to data structures and algorithms in python. Using this project, different 
